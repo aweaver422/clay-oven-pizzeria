@@ -6,13 +6,13 @@
     text-decoration: none;
 }
 header {
-    display: flex;
     margin: 0;
     padding: 0;
     background: var(--primary-color);
     color: var(--secondary-color);
     box-shadow: var(--primary-color) 0px 0px 10px;
     padding: 20px;
+    text-align: center;
 }
 
 #content-header img {
@@ -48,6 +48,10 @@ header {
 
 @media only screen and (min-width: 800px) { 
     /* HEADER */
+    header {
+        display: flex;
+    }
+
     #header-title {
         position: absolute;
         left: 250px;

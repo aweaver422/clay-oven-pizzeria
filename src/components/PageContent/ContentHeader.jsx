@@ -6,7 +6,7 @@ const ContentHeader = () => {
     return (
         <section id="content-header">
                 <img src={imgHeader} />
-                <section>
+                <section className="hide-small">
                     <h2>CLAY OVEN PIZZERIA</h2>
                 </section>
         </section>

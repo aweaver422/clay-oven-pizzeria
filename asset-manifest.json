@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/clay-oven-pizzeria/static/css/main.c9dadc49.css",
+    "main.js": "/clay-oven-pizzeria/static/js/main.6caf2e4d.js",
+    "static/media/salami.jpeg": "/clay-oven-pizzeria/static/media/salami.a35bf89c07e2e42de272.jpeg",
+    "static/media/mush.jpeg": "/clay-oven-pizzeria/static/media/mush.cad9bdc8730296f2a367.jpeg",
+    "static/media/pep.jpeg": "/clay-oven-pizzeria/static/media/pep.11aa439e05d3b4e37f3f.jpeg",
+    "static/media/tempMap.png": "/clay-oven-pizzeria/static/media/tempMap.89af2b39cbb178ea83df.png",
+    "static/media/chicken-fajita.jpg": "/clay-oven-pizzeria/static/media/chicken-fajita.d1a23a9c669f34cba38d.jpg",
+    "static/media/hawaiian.jpg": "/clay-oven-pizzeria/static/media/hawaiian.c2f6f901cc62d9e5bc6d.jpg",
+    "static/media/garnishing-pizza.jpg": "/clay-oven-pizzeria/static/media/garnishing-pizza.c59bae00f7c062fb4ce8.jpg",
+    "static/media/woodfireStock.jpg": "/clay-oven-pizzeria/static/media/woodfireStock.7d7aae0977b2d8a05ef8.jpg",
+    "static/media/meatballs.jpg": "/clay-oven-pizzeria/static/media/meatballs.bba1890fdd24acffc59f.jpg",
+    "static/media/breadBites.jpg": "/clay-oven-pizzeria/static/media/breadBites.6b10c0a9e750d39bf9f2.jpg",
+    "static/media/home-pg-pizza.jpeg": "/clay-oven-pizzeria/static/media/home-pg-pizza.930a209600019a9663e6.jpeg",
+    "static/media/cheesecake.jpg": "/clay-oven-pizzeria/static/media/cheesecake.0e713ac98b6cf1f45bdf.jpg",
+    "static/media/shrimp-mari.jpg": "/clay-oven-pizzeria/static/media/shrimp-mari.6c385124f203f3acb7cb.jpg",
+    "static/media/cheese.jpg": "/clay-oven-pizzeria/static/media/cheese.c2050ed19c00e142a49a.jpg",
+    "static/media/pizzamaker.png": "/clay-oven-pizzeria/static/media/pizzamaker.d4f744c3bb5631cc5a51.png",
+    "static/media/placeOrder.jpg": "/clay-oven-pizzeria/static/media/placeOrder.df184ee50bd1299cdd22.jpg",
+    "static/media/chocolate-cake.jpg": "/clay-oven-pizzeria/static/media/chocolate-cake.23eccf685b645a6e70c5.jpg",
+    "static/media/phone-stock.jpg": "/clay-oven-pizzeria/static/media/phone-stock.077ad3ba1af3b0ac9fad.jpg",
+    "static/media/logo.png": "/clay-oven-pizzeria/static/media/logo.8a400213d3f24d68cc27.png",
+    "index.html": "/clay-oven-pizzeria/index.html",
+    "main.c9dadc49.css.map": "/clay-oven-pizzeria/static/css/main.c9dadc49.css.map",
+    "main.6caf2e4d.js.map": "/clay-oven-pizzeria/static/js/main.6caf2e4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9dadc49.css",
+    "static/js/main.6caf2e4d.js"
+  ]
+}

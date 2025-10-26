@@ -1,0 +1,42 @@
+#specials section {
+    text-align: center;
+}
+
+.monthly-pizza section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.monthly-pizza div {
+    display: flex;
+    justify-content: center;
+}
+
+.monthly-pizza h1 {
+    margin-bottom: 5px;
+}
+
+.monthly-pizza p {
+    line-height: 25px;
+    margin: 40px;
+    margin-bottom: 10px;
+}
+
+.specialImg img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    margin-bottom: 0;
+    padding:5px;
+    border-radius: 5%;
+}
+
+@media only screen and (min-width: 800px) {
+    .monthly-pizza section {
+        padding-top: 40px;
+    }
+}

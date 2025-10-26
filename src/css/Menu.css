@@ -1,0 +1,65 @@
+.item {
+    margin: 40px;
+}
+.item h3 {
+    font-weight: bold;
+    text-align: left;
+    font-stretch: condensed;
+}
+
+#menu-items h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#menu-items {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#app, #pizza, #desserts {
+    padding: 20px 0px;
+}
+
+.menu-main-content {
+    display: flex;
+    justify-content: center;
+}
+
+#pizza {
+    background: bisque;
+}
+
+@media only screen and (min-width: 800px) {
+        /* MENU ITEMS */
+    .menu-imgs img{
+        width: 150px;
+        height: 100px;
+        object-fit: cover; 
+        display: block;
+        border-radius: 8px;
+    }
+
+    .menu-items hr {
+        margin: 45px;
+    }
+
+    .menuImg {
+        max-width: 150px;
+        max-height: 200px;
+        margin-right: 15px;
+    }
+
+    .item {
+        margin: 15px 400px;
+        color: var(--primary-light);
+    }
+
+    .item section h4 {
+        margin-left: 10px;
+    }
+
+    .item p {
+        margin: 0;
+    }
+}

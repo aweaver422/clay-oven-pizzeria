@@ -1,0 +1,132 @@
+/* CONTACT FORM */
+#contact-form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#form {
+    margin: 25px 0px;
+}
+
+#contactImg {
+    width: 100%;
+    max-height: 500px;
+}
+
+#contact-inputs {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: left;
+}
+
+
+
+/* CONTACT SOCIALS */
+#socials {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px 80px;
+}
+
+#socials div {
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    max-width: 100%;
+}
+
+#img-socials img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#socials-desc {
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+
+/* CONTACT SOCIALS LIST */
+#socials-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#socials-list li {
+    line-height: 40px;
+    color: var(--secondary-light)
+}
+
+
+
+/* CONTACT MAP */
+#map {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--secondary-color);
+}
+
+#map div {
+    padding: 2%;
+}
+
+#map-desc {
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding-bottom: 20px
+}
+
+
+/* LARGE RESOLUTIONS */
+@media only screen and (min-width: 800px) {
+    /* CONTACT FORM */
+    #form {
+        margin-top: 80px;
+    }
+
+    #contact-form {
+        height: 500px;
+    }
+
+    
+    /* CONTACT SOCIALS */
+    #socials {
+        display: flex;
+    }
+
+    #socials div {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        max-width: 100%;
+    }
+
+    #socials-desc, #map-desc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 40px;
+        letter-spacing: 1px;
+    }
+
+    
+    /* CONTACT MAP */
+    #map-desc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 40px;
+        letter-spacing: 1px;
+    }
+}

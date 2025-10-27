@@ -21,7 +21,7 @@
 
 
 
-/* HOMEORDER */
+/* HOME ORDER */
 #content-place-order {
     background: var(--primary-sub);
     color: var(--secondary-color);
@@ -47,6 +47,11 @@
     border-color: none;
     font-size: 15px;
     font-weight: bolder;
+}
+
+#info-place-order button a {
+    color:var(--primary-color);
+    text-decoration: none;
 }
 
 #info-place-order Link {            /*Why doesn't Link work?*/

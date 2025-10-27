@@ -1,9 +1,9 @@
 import "../../css/Specials.css";
 import "../../css/General.css";
 
-const SpecialsPizza = ({ month, year, src, price, desc, highlight}) => {
+const SpecialsPizza = ({ highlight, month, year, src, price, desc}) => {
     return (
-        <section className="columns monthly-pizza" >
+        <section className={highlight ? "columns monthly-pizza back-color" : "columns monthly-pizza"} >
             <div className="one specialImg">
                 <img src={src} />
             </div>

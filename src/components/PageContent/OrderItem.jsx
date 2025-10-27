@@ -10,6 +10,7 @@ const OrderItem = ({name, src, price, desc}) => {
                 <h4>${price}</h4>
                 <button>+</button>
             </div>
+            <p>{desc}</p>
         </section>
     );
 };

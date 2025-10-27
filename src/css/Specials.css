@@ -30,13 +30,18 @@
     width: 80%;
     height: 80%;
     object-fit: cover;
-    margin-bottom: 0;
     padding:5px;
     border-radius: 5%;
+    margin-top: 20px;
+    margin-bottom: auto;
 }
 
 @media only screen and (min-width: 800px) {
     .monthly-pizza section {
         padding-top: 40px;
+    }
+
+    .specialImg img{
+        margin-top: auto;
     }
 }

@@ -1,32 +1,44 @@
 {
   "files": {
-    "main.css": "/clay-oven-pizzeria/static/css/main.c9dadc49.css",
-    "main.js": "/clay-oven-pizzeria/static/js/main.6caf2e4d.js",
+    "main.css": "/clay-oven-pizzeria/static/css/main.dcfd4e76.css",
+    "main.js": "/clay-oven-pizzeria/static/js/main.4535abbb.js",
     "static/media/salami.jpeg": "/clay-oven-pizzeria/static/media/salami.a35bf89c07e2e42de272.jpeg",
     "static/media/mush.jpeg": "/clay-oven-pizzeria/static/media/mush.cad9bdc8730296f2a367.jpeg",
     "static/media/pep.jpeg": "/clay-oven-pizzeria/static/media/pep.11aa439e05d3b4e37f3f.jpeg",
     "static/media/tempMap.png": "/clay-oven-pizzeria/static/media/tempMap.89af2b39cbb178ea83df.png",
+    "static/media/spinach.jpg": "/clay-oven-pizzeria/static/media/spinach.21801e63c215ee79cb89.jpg",
+    "static/media/buffalo.png": "/clay-oven-pizzeria/static/media/buffalo.7e60c4f5b273d123bd8a.png",
+    "static/media/salad.jpg": "/clay-oven-pizzeria/static/media/salad.1cbce1e988f558c90df2.jpg",
     "static/media/chicken-fajita.jpg": "/clay-oven-pizzeria/static/media/chicken-fajita.d1a23a9c669f34cba38d.jpg",
     "static/media/hawaiian.jpg": "/clay-oven-pizzeria/static/media/hawaiian.c2f6f901cc62d9e5bc6d.jpg",
+    "static/media/four-cheese.png": "/clay-oven-pizzeria/static/media/four-cheese.bfe99d04f012b0eee2a6.png",
+    "static/media/margherita.jpg": "/clay-oven-pizzeria/static/media/margherita.1eef23a4d6a4b257d66a.jpg",
     "static/media/garnishing-pizza.jpg": "/clay-oven-pizzeria/static/media/garnishing-pizza.c59bae00f7c062fb4ce8.jpg",
     "static/media/woodfireStock.jpg": "/clay-oven-pizzeria/static/media/woodfireStock.7d7aae0977b2d8a05ef8.jpg",
     "static/media/meatballs.jpg": "/clay-oven-pizzeria/static/media/meatballs.bba1890fdd24acffc59f.jpg",
     "static/media/breadBites.jpg": "/clay-oven-pizzeria/static/media/breadBites.6b10c0a9e750d39bf9f2.jpg",
+    "static/media/wings.png": "/clay-oven-pizzeria/static/media/wings.80eb345200d9fe70851a.png",
     "static/media/home-pg-pizza.jpeg": "/clay-oven-pizzeria/static/media/home-pg-pizza.930a209600019a9663e6.jpeg",
+    "static/media/mediterranean.jpg": "/clay-oven-pizzeria/static/media/mediterranean.3b9245a5a0f08b07c680.jpg",
     "static/media/cheesecake.jpg": "/clay-oven-pizzeria/static/media/cheesecake.0e713ac98b6cf1f45bdf.jpg",
+    "static/media/apple-pie.jpg": "/clay-oven-pizzeria/static/media/apple-pie.3bb2c13781d5559bf1cd.jpg",
     "static/media/shrimp-mari.jpg": "/clay-oven-pizzeria/static/media/shrimp-mari.6c385124f203f3acb7cb.jpg",
     "static/media/cheese.jpg": "/clay-oven-pizzeria/static/media/cheese.c2050ed19c00e142a49a.jpg",
+    "static/media/hamburger.png": "/clay-oven-pizzeria/static/media/hamburger.e47c8e1159abad3d2634.png",
+    "static/media/philly.png": "/clay-oven-pizzeria/static/media/philly.3d7a21f2315b99f08044.png",
+    "static/media/smores.png": "/clay-oven-pizzeria/static/media/smores.70f5f72589ecf78dbfb2.png",
+    "static/media/meat-lovers.png": "/clay-oven-pizzeria/static/media/meat-lovers.a04da9ad36e834f12f1f.png",
     "static/media/pizzamaker.png": "/clay-oven-pizzeria/static/media/pizzamaker.d4f744c3bb5631cc5a51.png",
     "static/media/placeOrder.jpg": "/clay-oven-pizzeria/static/media/placeOrder.df184ee50bd1299cdd22.jpg",
     "static/media/chocolate-cake.jpg": "/clay-oven-pizzeria/static/media/chocolate-cake.23eccf685b645a6e70c5.jpg",
     "static/media/phone-stock.jpg": "/clay-oven-pizzeria/static/media/phone-stock.077ad3ba1af3b0ac9fad.jpg",
     "static/media/logo.png": "/clay-oven-pizzeria/static/media/logo.8a400213d3f24d68cc27.png",
     "index.html": "/clay-oven-pizzeria/index.html",
-    "main.c9dadc49.css.map": "/clay-oven-pizzeria/static/css/main.c9dadc49.css.map",
-    "main.6caf2e4d.js.map": "/clay-oven-pizzeria/static/js/main.6caf2e4d.js.map"
+    "main.dcfd4e76.css.map": "/clay-oven-pizzeria/static/css/main.dcfd4e76.css.map",
+    "main.4535abbb.js.map": "/clay-oven-pizzeria/static/js/main.4535abbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9dadc49.css",
-    "static/js/main.6caf2e4d.js"
+    "static/css/main.dcfd4e76.css",
+    "static/js/main.4535abbb.js"
   ]
 }

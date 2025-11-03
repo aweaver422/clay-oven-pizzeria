@@ -30,7 +30,6 @@ const CareersForm = () => {
 
     return (
         <form onSubmit={onSubmit} id="work-appli-form" class="one">
-                <input type="hidden" name="access_key" value="c05e4dce-6afb-4b14-bd69-07a30774eeeb" />
                 <div class="columns">
                     <label class="one" for="name">Full Name:</label>
                     <input class="one" type="text" name="name" required />

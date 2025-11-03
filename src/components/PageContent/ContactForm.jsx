@@ -34,7 +34,6 @@ const ContactForm = () => {
                 <h2>Questions? Concerns?</h2>
                 <p>Give us a call today at (123) 456-7890, or submit a message below:</p>
                 <form onSubmit={onSubmit} id="contact-inputs">
-                    <input type="hidden" name="access_key" value="c05e4dce-6afb-4b14-bd69-07a30774eeeb" />
                     <div>
                         <label htmlFor="name">Name:</label>
                         <input type="text" name="name" required />

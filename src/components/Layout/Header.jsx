@@ -1,9 +1,16 @@
+import {useState} from "react";
+import {Link} from "react-router-dom";
 import "../../css/Header.css";
 import "../../css/General.css";
 import logo from "../../images/other/logo.png";
-import {Link} from "react-router-dom";
 
 const Header = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+    
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    }
+    
     return (
         <header id="main-header">
             <div id="logo">
@@ -15,7 +22,8 @@ const Header = () => {
                 <Link to="/">Clay Oven Pizzeria</Link>
             </h1>
             <nav id="main-nav">
-                <ul className="columns">
+                <p onClick={toggleMenu} id="toggle-nav">&#9776;</p>
+                <ul className={menuOpen ? "columns" : "hide-small"}>
                     <li><Link to="/menu">MENU</Link></li>
                     <li><Link to="/specials">SPECIALS</Link></li>
                     <li><Link to="/order">ORDER</Link></li>

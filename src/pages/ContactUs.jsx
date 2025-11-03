@@ -1,18 +1,16 @@
 import {Link} from "react-router-dom";
 import "../css/ContactUs.css";
 import PageTitle from "../components/PageContent/PageTitle";
-import ContactFormSec from "../components/PageContent/ContactFormSec";
 import Socials from "../components/PageContent/ContactSocials";
-import Location from "../components/PageContent/ContactLocation";
+import ContactForm from "../components/PageContent/ContactForm";
 
 
 const ContactUs = () => {
     return (
         <main>
             <PageTitle name="CONTACT US" />
-            <ContactFormSec />
+            <ContactForm/>
             <Socials />
-            <Location />
         </main>
     );
 };

@@ -27,7 +27,6 @@ header {
 /* NAVIGATION */
 #main-nav ul {
     list-style-type: none;
-    display: block;
     padding: 0;
 }
 
@@ -44,7 +43,17 @@ header {
     letter-spacing: 1px;
 }
 
+/* TOGGLE NAV */
+#toggle-nav{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
 
+.hide-small, .hide {
+    display: none;
+}
 
 @media only screen and (min-width: 800px) { 
     /* HEADER */
@@ -83,5 +92,14 @@ header {
 
     #main-nav a.current {
         background: none;
+    }
+
+    /* TOGGLE NAV */
+    #toggle-nav {
+        display:none;
+    }
+
+    .hide-small, .hide {
+        display: block;
     }
 }

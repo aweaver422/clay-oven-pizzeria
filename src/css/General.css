@@ -15,12 +15,12 @@ body {
     color: var(--primary-sub);
 }
 
-.hide-small, .hide {
-    display: none;
-}
-
 .back-color {
     background: bisque;
+}
+
+.columns {
+    display: block;
 }
 
 /* PAGE TITLE */
@@ -43,9 +43,5 @@ body {
 
     .one {
         flex: 1;
-    }
-
-    .hide-small {
-        display: block;
     }
 }

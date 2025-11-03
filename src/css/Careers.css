@@ -37,42 +37,29 @@
     padding: 0px 25px;
 }
 
-#form h1 {
-    padding-top: 0;
-    margin-top: 0;
-}
-
-#contact-inputs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+#work-appli-form label, #work-appli-form input, #work-appli-form select {
+    line-height: 20px;
+    margin: 10px;
     text-align: left;
-}
-
-#contact-inputs div {
+    margin-left: 40px;
     display: flex;
-    flex-direction: column;
-    width: 50%;
 }
 
-#contact-inputs p {
-    margin: 0;
-    padding: 0;
-}
-
-#btn-contact-submit {
+#btn-career-form {
     background: var(--secondary-color);
+    margin: 5px;
     padding: 5px 15px;
     margin-bottom: 0px;
     color: var(--beige);
     border-radius: 6%;
     border-color: var(--secondary-light);
-    display: block;
-    margin: 0 auto;
 }
 
+#btn, span {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
 
 /* LARGE RESOLUTIONS */
 @media only screen and (min-width: 800px) { 

@@ -7,6 +7,7 @@
 
 #form {
     margin: 25px 0px;
+    text-align: center;
 }
 
 #contactImg {
@@ -21,6 +22,36 @@
     text-align: left;
 }
 
+#contact-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: left;
+}
+
+#contact-inputs div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#contact-inputs p {
+    margin: 0;
+    padding: 0;
+}
+
+#btn-contact-submit {
+    background: var(--secondary-color);
+    padding: 5px 15px;
+    margin-bottom: 0px;
+    color: var(--beige);
+    border-radius: 6%;
+    border-color: var(--secondary-light);
+    display: block;
+    margin: 0 auto;
+}
 
 
 /* CONTACT SOCIALS */
@@ -83,6 +114,10 @@
     letter-spacing: 2px;
     margin: 0;
     padding-bottom: 20px
+}
+
+#map img {
+    max-width: 100%;
 }
 
 

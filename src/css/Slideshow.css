@@ -8,17 +8,19 @@
     width: 300px;
     display: block;
     margin: auto;
+    border-radius: 5px;
 }
 
 .arrow {
-    color: black;
+    color: white;
     text-decoration: none;
-    size: 3em;
+    size: 10em;
     position: absolute;
     top: 50%;
-    background: lightgray;
+    background: var(--accent-one);
     border-radius: 3px;
-    padding: 5px;
+    padding: 8px;
+    cursor: pointer;
 }
 
 #right-arrow {

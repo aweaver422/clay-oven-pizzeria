@@ -12,15 +12,12 @@ const ItemDialog = (props) => {
                     >
                         &times;
                     </span>
-                    <div class="columns">
-                        <img src={"https://portiaportia.github.io/json/images/house-plans/"+props.main_image} alt="house" />
-                        <div id="dialog-content">
-                            <h3>{item.name}</h3>
-                            <img src={item.img}/>
-                            <p>Type: {item.type}</p>
-                            <p>{item.description}</p>
-                            <p>Price: {item.price}</p>
-                        </div>
+                    <div id="dialog-content">
+                        <img src={props.img}/>
+                        <h3>{props.name}</h3>
+                        <p>Type: {props.type}</p>
+                        <p>Price: ${props.price}</p>
+                        <p>{props.desc}</p>
                     </div>
                 </div>
             </div>

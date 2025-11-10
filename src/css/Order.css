@@ -80,6 +80,35 @@
     margin-top: 0px;
 }
 
+#item-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-width: 500px;
+    background: chocolate;
+    box-shadow: 4px 4px 10px #24353c;
+    padding: 20px;
+    z-index: 101;
+    border-radius: 10px;
+}
+
+#item-dialog img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#dialog-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
 
 /* LARGE RESOLUTIONS */
 @media only screen and (min-width: 800px) {
@@ -109,7 +138,7 @@
     .order-item {
         position: relative;
         flex: 1 1 250px;
-        max-width: 300px;
+        max-width: 70%;
         margin: 10px;
         padding-bottom: 0px;
     }

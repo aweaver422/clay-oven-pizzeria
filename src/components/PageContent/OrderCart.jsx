@@ -4,7 +4,7 @@ import "../../css/Order.css";
 const OrderCart = () => {
     return (
         <section id="options-cart">
-            <section id="cart-checkout-info" class="columns">
+            <section id="cart-checkout-info" className="columns">
                 <h3>Cart (0)</h3>
                 <button>Check Out</button>
             </section>

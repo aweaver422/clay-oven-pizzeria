@@ -1,8 +1,9 @@
 import "../../css/General.css";
 import "../../css/Order.css";
-import OrderItem from "./OrderItem";
 
 /* I only added a couple items on here just so you can see the idea and so the page isn't overloaded with those imports. Is there a better way to do it..? */
+
+/*
 import imgBreadBites from "../../images/apps/breadBites.jpg"; 
 import imgMeatballs from "../../images/apps/meatballs.jpg"
 import imgSalad from "../../images/apps/salad.jpg";
@@ -15,10 +16,14 @@ import imgCheesecake from "../../images/desserts/cheesecake.jpg";
 import imgChocoCake from "../../images/desserts/chocolate-cake.jpg";
 import imgSmores from "../../images/desserts/smores.png";
 import imgApplePie from "../../images/desserts/apple-pie.jpg";
+*/
+import ItemList from "../PageContent/ItemsList";
+
 
 const OrderMenu = () => {
     return (
         <section className="columns">
+            {/*
             <section id="menu-list">
                 <section id="menu-options" className="columns">
                     <OrderItem name="Parmesan Bread Bites" src={imgBreadBites} price="6" desc="Bite-size pieces of bread coated with butter, parmesan, and garlic seasoning."/>
@@ -35,6 +40,8 @@ const OrderMenu = () => {
                     <OrderItem name="Apple Pie Pizza" src={imgApplePie} price="10" desc="Pizza dough base with caramelized apples, brown sugar crumbles, and icing drizzle." />
                 </section>
             </section>
+            */}
+            <ItemList num={20} />
         </section>
     );
 };

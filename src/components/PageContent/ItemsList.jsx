@@ -5,7 +5,7 @@ import OrderItem from "../PageContent/OrderItem";
 
 const Item = (props) => {
     const [items, setItems] = useState([]);
-    const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3001";
+    const API_URL = "https://your-backend-service.onrender.com";
     
     useEffect(()=>{
         const loadItems = async() => {

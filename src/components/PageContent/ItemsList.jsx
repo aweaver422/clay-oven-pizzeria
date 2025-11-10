@@ -9,7 +9,7 @@ const Item = (props) => {
     useEffect(()=>{
         const loadItems = async() => {
             try {
-                const response = await axios.get("http://localhost:3001/api/menu/");
+                const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/menu/`);
                 setItems(response.data.slice(0,props.num));
             } catch (error) {
                 console.error("Error loading menu: ", error)
@@ -25,7 +25,7 @@ const Item = (props) => {
                         key={item._id} 
                         id={item._id}
                         name={item.name} 
-                        img={`https://server-pizzas-fall-2025.onrender.com${item.img}`}
+                        img={`${process.env.REACT_APP_API_URL}${item.img}`}
                         type={item.type}
                         description={item.description}
                         price={item.price} 

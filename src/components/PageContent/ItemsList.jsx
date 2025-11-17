@@ -5,7 +5,7 @@ import OrderItem from "../PageContent/OrderItem";
 
 const Item = (props) => {
     const [items, setItems] = useState([]);
-    const API_URL = "https://server-pizzas-fall-2025.onrender.com";
+    const API_URL = "http://localhost:3001";
     
     useEffect(()=>{
         const loadItems = async() => {

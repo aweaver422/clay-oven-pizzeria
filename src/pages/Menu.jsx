@@ -1,6 +1,4 @@
-import {Link} from "react-router-dom";
 import "./../css/Menu.css";
-import PageTitle from "../components/PageContent/PageTitle";
 import MenuItem from "../components/PageContent/MenuItem";
 
 /* I only added a couple items on here just so you can see the idea and so the page isn't overloaded with those imports. Is there a better way to do it..? */
@@ -20,7 +18,9 @@ import imgApplePie from "../images/desserts/apple-pie.jpg";
 const Menu = () => {
     return (
         <main>
-            <PageTitle name="MENU" />
+            <div className="title">
+                <h1>MENU</h1>
+            </div>
             <section class="menu-main-content">
                 <section id="menu-items">
                     <section id="app">

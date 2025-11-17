@@ -1,13 +1,13 @@
-import {Link} from "react-router-dom";
 import "./../css/Careers.css";
-import PageTitle from "../components/PageContent/PageTitle";
 import CareersInfo from "../components/PageContent/CareersInfo";
 import CareersForm from "../components/PageContent/CareersForm";
 
 const Careers = () => {
     return (
         <main>
-            <PageTitle name="CAREERS" />
+            <div className="title">
+                <h1>CAREERS</h1>
+            </div>
             <div className="columns">
                 <CareersInfo />
                 <CareersForm />

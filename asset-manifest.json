@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/clay-oven-pizzeria/static/css/main.2e753529.css",
+    "main.css": "/clay-oven-pizzeria/static/css/main.ae702545.css",
     "main.js": "/clay-oven-pizzeria/static/js/main.2f28a038.js",
     "static/media/salami.jpeg": "/clay-oven-pizzeria/static/media/salami.a35bf89c07e2e42de272.jpeg",
     "static/media/mush.jpeg": "/clay-oven-pizzeria/static/media/mush.cad9bdc8730296f2a367.jpeg",
@@ -34,11 +34,11 @@
     "static/media/phone-stock.jpg": "/clay-oven-pizzeria/static/media/phone-stock.077ad3ba1af3b0ac9fad.jpg",
     "static/media/logo.png": "/clay-oven-pizzeria/static/media/logo.8a400213d3f24d68cc27.png",
     "index.html": "/clay-oven-pizzeria/index.html",
-    "main.2e753529.css.map": "/clay-oven-pizzeria/static/css/main.2e753529.css.map",
+    "main.ae702545.css.map": "/clay-oven-pizzeria/static/css/main.ae702545.css.map",
     "main.2f28a038.js.map": "/clay-oven-pizzeria/static/js/main.2f28a038.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e753529.css",
+    "static/css/main.ae702545.css",
     "static/js/main.2f28a038.js"
   ]
 }

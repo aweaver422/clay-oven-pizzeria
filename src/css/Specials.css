@@ -66,6 +66,14 @@
     max-width: 100%;
 }
 
+#img-upload input[type="file"] {
+    width: 190px;
+}
+
+#img-upload label {
+    margin-right: 5px;
+}
+
 #suggestion-gallery {
     display: flex;
     flex-wrap: wrap;

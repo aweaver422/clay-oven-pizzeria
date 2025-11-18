@@ -50,7 +50,7 @@ const SpecialsForm = (props) => {
             <div id="suggestion-form" className="one">
                 <h2>Submit a Suggestion</h2>
                 <p>Have an idea for a Pizza of the Month? Submit your requests below!</p>
-                    <form onSubmit={addToServer}>
+                <form onSubmit={addToServer}>
                     <h3>Suggest New Pizza</h3>
                     <p>
                         <label htmlFor="name">Pizza Name: </label>
@@ -73,7 +73,7 @@ const SpecialsForm = (props) => {
                         </p>
                     </section>
                     <p>
-                        <button type="submit">Submit</button>
+                        <button type="submit">Add</button>
                     </p>
                     <p>{result}</p>
                 </form>

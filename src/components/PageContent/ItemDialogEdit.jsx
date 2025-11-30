@@ -57,10 +57,9 @@ const ItemDialogEdit = (props) => {
             <section>
                     <div>
                         <p id="img-prev-section">
-                            {prevSrc!=""?
-                            (<img id="img-prev" src={prevSrc}></img>):
-                            ("")
-                            }
+                          {prevSrc !== "" && (
+                            <img id="img-prev" src={prevSrc} alt="Preview" />
+                          )}
                         </p>
                     </div>
                     <p id="img-upload">

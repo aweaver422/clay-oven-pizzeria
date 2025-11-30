@@ -20,10 +20,11 @@ const SpecialsForm = () => {
         setResult("Sending...");
 
         const formData = new FormData(event.target);
+        formData.append("type", "suggestion");
 
         try {
             const response = await fetch(
-                "https://server-pizzas-fall-2025.onrender.com/api/menu",
+                "https://server-pizzas-fall-2025.onrender.com/api/menu?type=suggestion",
                 {
                     method: "POST",
                     body: formData,

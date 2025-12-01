@@ -7,14 +7,12 @@ const SpecialsForm = () => {
     const [result, setResult] = useState("");
     const [prevSrc, setPrevSrc] = useState("");
     const [suggestions, setSuggestions] = useState([]);
-    const [selectedSuggestion, setSelectedSuggestion] = useState(null); // for dialog
+    const [selectedSuggestion, setSelectedSuggestion] = useState(null);
 
-    // Handle image preview
     const uploadImage = (event) => {
         setPrevSrc(URL.createObjectURL(event.target.files[0]));
     };
 
-    // Add suggestion to server
     const addToServer = async (event) => {
         event.preventDefault();
         setResult("Sending...");
@@ -46,13 +44,26 @@ const SpecialsForm = () => {
         }
     };
 
-    // Load suggestions on mount
     useEffect(() => {
         axios
             .get("https://server-pizzas-fall-2025.onrender.com/api/menu?type=suggestion")
             .then((res) => setSuggestions(res.data))
             .catch((err) => console.error(err));
     }, []);
+
+    const updateItem = (updatedItem) => {
+        setSuggestions(prev =>
+            prev.map(item =>
+                item._id === updatedItem._id ? updatedItem : item
+            )
+        );
+    };
+
+    const deleteItem = (deletedId) => {
+        setSuggestions(prev =>
+            prev.filter(item => item._id !== deletedId)
+        );
+    };
 
     return (
         <section className="columns">
@@ -92,7 +103,7 @@ const SpecialsForm = () => {
                     <div
                         key={d._id}
                         className="suggestion-item"
-                        onClick={() => setSelectedSuggestion(d)} // Open dialog
+                        onClick={() => setSelectedSuggestion(d)}
                     >
                         {d.img && <img src={d.img} alt={d.name} className="suggestion-img" />}
                         <h3>{d.name}</h3>
@@ -101,7 +112,7 @@ const SpecialsForm = () => {
                 ))}
             </div>
 
-            {/* Suggestion dialog */}
+            {/* Suggestion Dialog */}
             {selectedSuggestion && (
                 <ItemDialog
                     enableSuggestions={true}
@@ -110,7 +121,9 @@ const SpecialsForm = () => {
                     name={selectedSuggestion.name}
                     img={selectedSuggestion.img}
                     ingredients={selectedSuggestion.ingredients}
-                    type={selectedSuggestion.type} // optional
+                    type={selectedSuggestion.type}
+                    updateItem={updateItem}
+                    hideItem={deleteItem}
                 />
             )}
         </section>

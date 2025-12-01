@@ -8,7 +8,6 @@ import ItemDialogDelete from "./ItemDialogDelete";
 const ItemDialog = (props) => {
     const location = useLocation();
     const enableSuggestions = props.enableSuggestions ?? location.pathname === "/specials";
-    //const enableSuggestions = props.enableSuggestions;
     const [showContent, setShowContent] = useState("details");
 
     const showEdit = () => setShowContent("edit");

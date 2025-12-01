@@ -10,8 +10,8 @@ const ItemDialogDelete = (props) => {
 
         if(response.status === 200) {
             setResult("Suggestion successfully delete");
+            props.hideItem(props._id);
             props.closeDeleteDialog();
-            props.hideItem();
         } else {
             setResult("Sorry, we couldn't delete the suggestion.");
         }

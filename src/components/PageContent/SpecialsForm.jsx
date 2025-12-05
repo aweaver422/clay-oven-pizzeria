@@ -18,7 +18,6 @@ const SpecialsForm = () => {
         setResult("Sending...");
 
         const formData = new FormData(event.target);
-        formData.append("type", "suggestion");
 
         try {
             const response = await fetch(

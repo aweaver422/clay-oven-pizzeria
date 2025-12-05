@@ -4,7 +4,7 @@ const ItemDialogEdit = (props) => {
 
     const [result, setResult] = useState("");
     const serverURL = "https://server-pizzas-fall-2025.onrender.com";
-    const [prevSrc, setPrevSrc] = useState(props.img ? `${serverURL}/images/${props.img}` : "");
+    const uploadImage = [prevSrc, setPrevSrc] = useState(props.img ? `${serverURL}/images/${props.img}` : "");
     /*
     const uploadImage = (event) => {
         setPrevSrc(URL.createObjectURL(event.target.files[0]));

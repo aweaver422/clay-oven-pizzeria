@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const ItemDialogEdit = (props) => {
 
     const [result, setResult] = useState("");
-    const [prevSrc, setPrevSrc] = useState("http://localhost:3001/images/" + props.img);
+    const [prevSrc, setPrevSrc] = useState("https://server-pizzas-fall-2025.onrender.com/images/" + props.img);
 
     const uploadImage = (event) => {
         setPrevSrc(URL.createObjectURL(event.target.files[0]));

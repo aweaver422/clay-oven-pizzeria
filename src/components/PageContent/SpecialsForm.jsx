@@ -105,7 +105,7 @@ const SpecialsForm = () => {
                         className="suggestion-item"
                         onClick={() => setSelectedSuggestion(d)}
                     >
-                        {d.img && <img src={d.img} alt={d.name} className="suggestion-img" />}
+                        {d.img && <img src={`https://server-pizzas-fall-2025.onrender.com/images/${d.img}`} alt={d.name} className="suggestion-img" />}
                         <h3>{d.name}</h3>
                         {d.ingredients && <p><strong>Ingredients:</strong> {d.ingredients}</p>}
                     </div>

@@ -3,11 +3,12 @@ import React, { useState } from "react";
 const ItemDialogEdit = (props) => {
 
     const [result, setResult] = useState("");
-    const [prevSrc, setPrevSrc] = useState("https://server-pizzas-fall-2025.onrender.com/images/" + props.img);
-
+    const serverURL = "https://server-pizzas-fall-2025.onrender.com";
+    const [prevSrc, setPrevSrc] = useState(props.img ? `${serverURL}/images/${props.img}` : "");
+    /*
     const uploadImage = (event) => {
         setPrevSrc(URL.createObjectURL(event.target.files[0]));
-    };
+    };*/
 
     const onSubmit = async(event) => {
         event.preventDefault();

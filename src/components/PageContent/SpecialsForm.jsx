@@ -22,7 +22,7 @@ const SpecialsForm = () => {
 
         try {
             const response = await fetch(
-                "https://server-pizzas-fall-2025.onrender.com/api/menu?type=suggestion",
+                "https://server-pizzas-fall-2025.onrender.com/api/suggestions/",
                 {
                     method: "POST",
                     body: formData,
@@ -46,7 +46,7 @@ const SpecialsForm = () => {
 
     useEffect(() => {
         axios
-            .get("https://server-pizzas-fall-2025.onrender.com/api/menu?type=suggestion")
+            .get("https://server-pizzas-fall-2025.onrender.com/api/suggestions/")
             .then((res) => setSuggestions(res.data))
             .catch((err) => console.error(err));
     }, []);

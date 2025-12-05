@@ -16,7 +16,7 @@ const ItemDialogEdit = (props) => {
         const formData = new FormData(event.target);
         console.log(...formData);
 
-        const response = await fetch(`https://server-pizzas-fall-2025.onrender.com/api/menu/${props._id}`,{
+        const response = await fetch(`https://server-pizzas-fall-2025.onrender.com/api/suggestions/${props._id}`,{
             method:"PUT",
             body:formData
         });
